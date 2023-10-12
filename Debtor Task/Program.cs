@@ -144,7 +144,7 @@ List<Debtor> debtors = new List<Debtor> {
 
 
 //  20)Adindaki ve familyasindaki herflerden "smile" sozunu yaza bileceyimiz borclularin siyahisini cixartmaq
-var task20Debtors = debtors.Where(x => x.FullName.Contains("s") && x.FullName.Contains("m") && x.FullName.Contains("i") && x.FullName.Contains("l") && x.FullName.Contains("e"));
+var list = debtors.Where(x => x.FullName.Contains("s") && x.FullName.Contains("m") && x.FullName.Contains("i") && x.FullName.Contains("l") && x.FullName.Contains("e"));
 
 foreach (var item in list)
 {
